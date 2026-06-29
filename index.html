@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprajita Kumari — Physiotherapist | BPT Portfolio</title>
+    <meta name="description" content="Professional portfolio of Aprajita Kumari, a dedicated Physiotherapist (BPT) specializing in Orthopaedic, Neurological, Paediatric, ICU/Critical Care, and Sports Rehabilitation.">
+    <meta name="keywords" content="Physiotherapist, BPT, Aprajita Kumari, Physiotherapy, Rehabilitation, New Delhi, Healthcare">
+    <meta name="author" content="Aprajita Kumari">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ─── PRELOADER ─── -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="heartbeat-line">
+                <svg viewBox="0 0 600 100" preserveAspectRatio="none">
+                    <polyline class="heartbeat-path" points="0,50 100,50 120,50 140,20 160,80 180,30 200,60 220,50 600,50" />
+                </svg>
+            </div>
+            <p class="loader-text">Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- ─── NAVBAR ─── -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon"><i class="fas fa-heartbeat"></i></span>
+                <span class="logo-text">Dr. Aprajita</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#workshops" class="nav-link">Training</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ─── HERO SECTION ─── -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+
+        <!-- Floating medical icons -->
+        <div class="floating-icons">
+            <i class="fas fa-stethoscope float-icon fi-1"></i>
+            <i class="fas fa-heartbeat float-icon fi-2"></i>
+            <i class="fas fa-dna float-icon fi-3"></i>
+            <i class="fas fa-bone float-icon fi-4"></i>
+            <i class="fas fa-hand-holding-medical float-icon fi-5"></i>
+            <i class="fas fa-lungs float-icon fi-6"></i>
+            <i class="fas fa-brain float-icon fi-7"></i>
+            <i class="fas fa-user-md float-icon fi-8"></i>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge animate-fade-up">
+                    <i class="fas fa-certificate"></i>
+                    <span>Bachelor of Physiotherapy (BPT)</span>
+                </div>
+                <h1 class="hero-name animate-fade-up delay-1">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name-main">Aprajita Kumari</span>
+                </h1>
+                <p class="hero-title animate-fade-up delay-2">
+                    <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+                </p>
+                <p class="hero-description animate-fade-up delay-3">
+                    Dedicated Physiotherapist with hands-on clinical experience across Orthopaedic, Neurological, Paediatric, ICU/Critical Care &amp; Sports Rehabilitation.
+                </p>
+                <div class="hero-cta animate-fade-up delay-4">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Book Consultation</span>
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        <i class="fas fa-user-md"></i>
+                        <span>Know More</span>
+                    </a>
+                </div>
+                <div class="hero-stats animate-fade-up delay-5">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="6">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Departments</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="6">0</span><span class="stat-suffix"> mo</span>
+                        <span class="stat-label">Clinical Internship</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="3">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Health Camps</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-up delay-2">
+                <div class="image-frame">
+                    <div class="image-glow"></div>
+                    <div class="image-border-animated"></div>
+                    <img src="assets/aprajita-photo.jpg" alt="Aprajita Kumari — Physiotherapist" class="profile-photo">
+                    <div class="image-badge">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Verified Professional</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <a href="#about">
+                <span class="scroll-text">Scroll Down</span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ─── ABOUT SECTION ─── -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-user-md"></i> About Me</span>
+                <h2 class="section-title">Professional Objective</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image reveal-left">
+                    <img src="assets/physio-illustration.png" alt="Physiotherapy Illustration">
+                </div>
+                <div class="about-text reveal-right">
+                    <p class="about-description">
+                        Dedicated and motivated Physiotherapist with a <strong>Bachelor of Physiotherapy (BPT)</strong> degree and hands-on clinical internship experience across <em>Orthopaedic, Neurological, Paediatric, ICU/Critical Care, OPD,</em> and <em>Sports Rehabilitation</em> departments.
+                    </p>
+                    <p class="about-description">
+                        Actively participated in healthcare camps, workshops, and national/international conferences. Seeking a Physiotherapist position in a reputed hospital or healthcare organization to contribute to quality patient care and continually develop clinical expertise.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <div>
+                                <span class="detail-label">Date of Birth</span>
+                                <span class="detail-value">26th May 2000</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-flag"></i>
+                            <div>
+                                <span class="detail-label">Nationality</span>
+                                <span class="detail-value">Indian</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <span class="detail-label">Languages</span>
+                                <span class="detail-value">Hindi, English</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="detail-label">Location</span>
+                                <span class="detail-value">New Delhi, India</span>
+                            </div>
+                        </div>
+                        <div class="detail-item highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <span class="detail-label">Availability</span>
+                                <span class="detail-value">Immediately Available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── EXPERIENCE SECTION ─── -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-hospital"></i> Clinical Experience</span>
+                <h2 class="section-title">Internship &amp; Training</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="experience-card reveal-up">
+                <div class="exp-header">
+                    <div class="exp-icon-wrap">
+                        <i class="fas fa-hospital-alt"></i>
+                    </div>
+                    <div class="exp-title-info">
+                        <h3>Physiotherapy Intern</h3>
+                        <p class="exp-org"><i class="fas fa-building"></i> JNU Hospital, Jaipur National University</p>
+                    </div>
+                    <div class="exp-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Jul 2025 – Jan 2026</span>
+                    </div>
+                </div>
+                <div class="exp-body">
+                    <p class="exp-intro">Completed a structured <strong>6-month rotatory clinical internship</strong> across multiple specialized departments:</p>
+
+                    <div class="departments-grid">
+                        <div class="dept-card">
+                            <div class="dept-icon"><i class="fas fa-bone"></i></div>
+                            <h4>Orthopaedic Rehabilitation</h4>
+                            <p>Assessment and rehabilitation of musculoskeletal conditions</p>
+                        </div>
+                        <div class="dept-card">
+                            <div class="dept-icon"><i class="fas fa-brain"></i></div>
+                            <h4>Neurological Rehabilitation</h4>
+                            <p>Management of stroke, spinal injury, and neurological disorders</p>
+                        </div>
+                        <div class="dept-card">
+                            <div class="dept-icon"><i class="fas fa-baby"></i></div>
+                            <h4>Paediatric Rehabilitation</h4>
+                            <p>Developmental and paediatric condition management</p>
+                        </div>
+                        <div class="dept-card">
+                            <div class="dept-icon"><i class="fas fa-procedures"></i></div>
+                            <h4>ICU / Critical Care</h4>
+                            <p>Physiotherapy interventions for critically ill patients</p>
+                        </div>
+                        <div class="dept-card">
+                            <div class="dept-icon"><i class="fas fa-clinic-medical"></i></div>
+                            <h4>OPD</h4>
+                            <p>Outpatient assessment and treatment planning</p>
+                        </div>
+                        <div class="dept-card">
+                            <div class="dept-icon"><i class="fas fa-running"></i></div>
+                            <h4>Sports Rehabilitation</h4>
+                            <p>Sports injury management and return-to-sport programs</p>
+                        </div>
+                    </div>
+
+                    <div class="exp-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Assisted senior physiotherapists in patient assessment, treatment planning, and prescription of rehabilitation exercise programs.</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Actively participated in patient care programs, healthcare awareness camps, and clinical conferences.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── EDUCATION SECTION ─── -->
+    <section id="education" class="section education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-graduation-cap"></i> Education</span>
+                <h2 class="section-title">Academic Background</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-marker">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 – 2026</div>
+                        <h3>Bachelor in Physiotherapy (BPT)</h3>
+                        <p class="timeline-institution"><i class="fas fa-university"></i> Jaipur National University, Jaipur, Rajasthan</p>
+                        <div class="timeline-badge">Professional Degree</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-marker">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021</div>
+                        <h3>Senior Secondary (12th)</h3>
+                        <p class="timeline-institution"><i class="fas fa-school"></i> New Public Senior Secondary School, Vigyan Nagar, Kota, Rajasthan</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-marker">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2015</div>
+                        <h3>Secondary (10th)</h3>
+                        <p class="timeline-institution"><i class="fas fa-school"></i> RPS Public School, Jhapha, Muzaffarpur, Bihar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── SKILLS SECTION ─── -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-hand-holding-medical"></i> Clinical Skills</span>
+                <h2 class="section-title">Skills &amp; Competencies</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h4>Patient Assessment &amp; Evaluation</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-bone"></i></div>
+                    <h4>Orthopaedic Rehabilitation</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h4>Neurological Rehabilitation</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-procedures"></i></div>
+                    <h4>ICU / Critical Care Physiotherapy</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-baby"></i></div>
+                    <h4>Paediatric Rehabilitation</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h4>Therapeutic Exercise Prescription</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="93"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-walking"></i></div>
+                    <h4>Gait &amp; Balance Training</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-running"></i></div>
+                    <h4>Sports Injury Rehabilitation</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="89"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                    <h4>Patient Counselling &amp; Education</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="94"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-notes-medical"></i></div>
+                    <h4>Treatment Planning</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="91"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-hands"></i></div>
+                    <h4>Spinal &amp; Joint Mobilization</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="87"></div></div>
+                </div>
+                <div class="skill-card reveal-up">
+                    <div class="skill-icon"><i class="fas fa-users"></i></div>
+                    <h4>Communication &amp; Teamwork</h4>
+                    <div class="skill-bar"><div class="skill-fill" data-width="96"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── WORKSHOPS & TRAINING SECTION ─── -->
+    <section id="workshops" class="section workshops">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-chalkboard-teacher"></i> Workshops &amp; Training</span>
+                <h2 class="section-title">Specialized Training</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="workshops-grid">
+                <div class="workshop-card reveal-up">
+                    <div class="workshop-icon">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <div class="workshop-content">
+                        <h4>Palpation &amp; Release of Deep Tendon Tissue</h4>
+                        <p>Techniques for soft tissue assessment and targeted release therapy for deep tendon structures.</p>
+                    </div>
+                    <div class="workshop-tag">Soft Tissue</div>
+                </div>
+
+                <div class="workshop-card reveal-up">
+                    <div class="workshop-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <div class="workshop-content">
+                        <h4>Sports Rehabilitation Training</h4>
+                        <p>Circuit Training, Core Conditioning &amp; Plyometric Workout methodology for sports injury management.</p>
+                    </div>
+                    <div class="workshop-tag">Sports Rehab</div>
+                </div>
+
+                <div class="workshop-card reveal-up">
+                    <div class="workshop-icon">
+                        <i class="fas fa-hands"></i>
+                    </div>
+                    <div class="workshop-content">
+                        <h4>Spinal &amp; Joint Manipulation</h4>
+                        <p>Hands-on training in manual therapy techniques for spinal and peripheral joint mobilization.</p>
+                    </div>
+                    <div class="workshop-tag">Manual Therapy</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── HEALTHCARE CAMPS SECTION ─── -->
+    <section id="camps" class="section camps">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-hand-holding-heart"></i> Community Service</span>
+                <h2 class="section-title">Healthcare Camps</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="camps-grid">
+                <div class="camp-card reveal-up">
+                    <div class="camp-icon-bg">
+                        <i class="fas fa-globe-asia"></i>
+                    </div>
+                    <div class="camp-details">
+                        <h4>Mass Awareness Physiotherapy Camp</h4>
+                        <span class="camp-occasion">World Physiotherapy Day</span>
+                        <p>Conducted community awareness and screening sessions promoting physiotherapy benefits.</p>
+                    </div>
+                </div>
+
+                <div class="camp-card reveal-up">
+                    <div class="camp-icon-bg">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="camp-details">
+                        <h4>Free Physiotherapy Healthcare Camp</h4>
+                        <span class="camp-occasion">Community Outreach</span>
+                        <p>Patient assessment and rehabilitation awareness for underserved populations.</p>
+                    </div>
+                </div>
+
+                <div class="camp-card reveal-up">
+                    <div class="camp-icon-bg">
+                        <i class="fas fa-people-carry"></i>
+                    </div>
+                    <div class="camp-details">
+                        <h4>Community Healthcare Camp</h4>
+                        <span class="camp-occasion">Health Education Drive</span>
+                        <p>Physiotherapy consultation and health education outreach for community well-being.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── CONFERENCES SECTION ─── -->
+    <section id="conferences" class="section conferences">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-award"></i> Conferences</span>
+                <h2 class="section-title">Professional Development</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="conferences-grid">
+                <div class="conf-card reveal-left">
+                    <div class="conf-year">2025</div>
+                    <div class="conf-content">
+                        <h4>Rajasthan Orthopaedics Rehabilitation Summit (RORS)</h4>
+                        <p class="conf-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan</p>
+                        <p class="conf-desc">Attended sessions on current advances in orthopaedic rehabilitation, latest treatment protocols, and evidence-based practices.</p>
+                        <span class="conf-type">National</span>
+                    </div>
+                </div>
+
+                <div class="conf-card reveal-right">
+                    <div class="conf-year">2026</div>
+                    <div class="conf-content">
+                        <h4>International Conference of Allied &amp; Healthcare Professionals (INCAHP)</h4>
+                        <p class="conf-location"><i class="fas fa-map-marker-alt"></i> NIMS University</p>
+                        <p class="conf-desc">Exposure to global perspectives in allied healthcare and physiotherapy research, networking with international professionals.</p>
+                        <span class="conf-type international">International</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── CONTACT SECTION ─── -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-envelope"></i> Get in Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info reveal-left">
+                    <h3>Let's Connect</h3>
+                    <p>Whether you're looking for a dedicated physiotherapist or wish to discuss rehabilitation needs, feel free to reach out.</p>
+
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="cc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="cc-info">
+                                <h4>Location</h4>
+                                <p>A/5, 107, 3rd Floor, A-Block, Sector-18, Rohini, New Delhi – 110089</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="cc-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="cc-info">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+918340235238">+91-8340235238</a></p>
+                                <p><a href="tel:+917646096076">+91-7646096076</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="cc-info">
+                                <h4>Email</h4>
+                                <p><a href="mailto:aprajitakumari445@gmail.com">aprajitakumari445@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap reveal-right">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="formName" placeholder=" " required>
+                            <label for="formName">Your Name</label>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="formEmail" placeholder=" " required>
+                            <label for="formEmail">Your Email</label>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="formPhone" placeholder=" ">
+                            <label for="formPhone">Phone Number</label>
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="formMessage" rows="4" placeholder=" " required></textarea>
+                            <label for="formMessage">Your Message</label>
+                            <i class="fas fa-comment-alt"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,40 C360,100 720,0 1080,60 C1260,90 1380,40 1440,40 L1440,120 L0,120 Z" fill="currentColor"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo"><i class="fas fa-heartbeat"></i> Aprajita Kumari</span>
+                    <p>Physiotherapist | BPT</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:aprajitakumari445@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+918340235238" aria-label="Phone"><i class="fas fa-phone-alt"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aprajita Kumari. All Rights Reserved.</p>
+                <p class="footer-disclaimer">All information provided is true and accurate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ─── BACK TO TOP ─── -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
